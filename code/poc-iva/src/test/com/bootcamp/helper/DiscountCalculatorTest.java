@@ -28,7 +28,7 @@ public class DiscountCalculatorTest {
 	void shouldReturnZeroWhenDiscountIsOverOneHundredOrPriceIsNegative() {
 		DiscountCalculator helper = new DiscountCalculator();
 
-        assertEquals(0.0, helper.calcularDescuento(200.0, 0), 0.001);
+        assertEquals(0.0, helper.calcularDescuento(200.0, 1000), 0.001);
         assertEquals(0.0, helper.calcularDescuento(-100.0, 50), 0.001);
     }
 	
