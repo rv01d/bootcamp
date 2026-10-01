@@ -23,4 +23,5 @@ public class TaxCalculatorTest {
         
         assertEquals(0.0, helper.calculateIva(-50.0), 0.001);
     }
+  
 }
